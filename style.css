@@ -1,0 +1,54 @@
+body{
+    background-color: #F0FFFF;
+}
+.tituloPrincipal {
+    text-align: center;
+    color: #9370DB;
+}
+
+.titulo {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1rem 0 1rem;
+}
+
+.pTitulo {
+    font-size: 1em;
+    font-style: italic;
+    margin: 0 0 1em;
+}
+
+.caixa {
+    background-color: #F0FFFF;
+    width: 60%;
+    margin: 0 auto;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0 1em;
+}
+
+form label, legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.inputPadrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 15px;
+    width: 50%;
+}
+
+textarea{
+    display: block;
+    width: 36em;
+    margin: 0;
+}
+
+.enviar {
+    margin: 1em;
+    font-size: 20px;
+}

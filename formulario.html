@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="tituloPrincipal">
+            <h1 class="titulo">Pesquisa de satisfação do meu primeiro formulário</h1>
+            <p class="pTitulo"><em>Deixe abaixo sua opinião sobre o meu primeiro formulario</em></p>
+        </div>
+
+        <main>
+            <div class="caixa">
+                <form action="" class="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="inputPadrao">
+    
+                    <label for="email">Email</label>
+                    <input type="email" class="inputPadrao">
+    
+                    <fieldset>
+                        <legend>Você utilizaria este modelo de formulário profissionalmente?</legend>
+                        <label for="radio-sim"><input type="radio" name="utilizaria" value="" id="radio-sim" checked>Sim</label>
+                        <label for="radio-nao"><input type="radio" name="utilizaria" value="" id="radio-nao">Não</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend name="tecnologias">Quais tecnologias você acredita que usei para desenvolver este formulário?</legend>
+                        <label for="tecnologias"><input type="checkbox">HTML5</label>
+                        <label for="tecnologias"><input type="checkbox">CSS3</label>
+                        <label for="tecnologias"><input type="checkbox">AWS</label>
+                    </fieldset>
+    
+                    <label for="sugetaoDeMelhoria"></label>
+                    <textarea id="sugetaoDeMelhoria" cols="30" rows="10"></textarea>
+    
+                    <input type="submit" class="enviar">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
